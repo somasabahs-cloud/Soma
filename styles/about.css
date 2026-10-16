@@ -1,0 +1,102 @@
+.about {
+    display: flex;
+    gap: 70px;
+    padding: 70px 8%;
+}
+
+.about__image {
+    width: 50%;
+}
+
+.about__image img {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+}
+
+.about__text {
+    width: 50%;
+    padding-top: 40px;
+}
+
+.about__smalltitle {
+    font-size: 10px;
+    letter-spacing: 3px;
+}
+
+.about__title {
+    margin: 20px 0;
+    font-family: Georgia, serif;
+    font-size: 55px;
+    font-weight: normal;
+}
+
+.about__bigtext {
+    max-width: 500px;
+    font-family: Georgia, serif;
+    font-size: 22px;
+}
+
+.about__description {
+    max-width: 500px;
+    font-size: 15px;
+}
+
+.about__skills {
+    display: flex;
+    gap: 80px;
+    margin-top: 40px;
+    padding-top: 30px;
+    border-top: 1px solid #aaa59d;
+}
+
+.about__skill h3 {
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.about__skill p {
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+@media screen and (max-width: 700px) {
+
+    .about {
+        flex-direction: column;
+        gap: 35px;
+        padding: 40px 25px;
+    }
+
+    .about__image {
+        width: 100%;
+    }
+
+    .about__image img {
+        width: 100%;
+        height: 450px;
+        object-fit: cover;
+    }
+
+    .about__text {
+        width: 100%;
+        padding-top: 0;
+    }
+
+    .about__title {
+        font-size: 42px;
+    }
+
+    .about__bigtext {
+        font-size: 20px;
+    }
+
+    .about__skills {
+        gap: 40px;
+    }
+}.about__image img {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    border-radius: 20px;
+}

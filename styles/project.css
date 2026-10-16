@@ -1,0 +1,204 @@
+.project__intro {
+    padding: 90px 8% 70px;
+    text-align: center;
+}
+
+.project__smalltitle {
+    font-size: 10px;
+    letter-spacing: 3px;
+}
+
+.project__mainTitle {
+    margin: 20px 0;
+    font-family: Georgia, serif;
+    font-size: 75px;
+    font-weight: normal;
+}
+
+.project__introText {
+    max-width: 600px;
+    margin: auto;
+    font-family: Georgia, serif;
+    font-size: 22px;
+}
+
+.project__hero {
+    width: 90%;
+    margin: auto;
+}
+
+.project__hero img {
+    height: 650px;
+    object-fit: cover;
+}
+
+.project__information {
+    display: flex;
+    gap: 80px;
+    padding: 80px 8%;
+}
+
+.project__details {
+    display: flex;
+    width: 45%;
+    gap: 60px;
+}
+
+.project__details h3 {
+    font-size: 9px;
+    letter-spacing: 2px;
+}
+
+.project__details p {
+    font-size: 13px;
+}
+
+.project__overview {
+    width: 55%;
+}
+
+.project__overview h2 {
+    max-width: 600px;
+    font-family: Georgia, serif;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.project__overview p {
+    max-width: 600px;
+}
+
+.project__section {
+    padding: 90px 20%;
+    text-align: center;
+}
+
+.project__section h2 {
+    max-width: 700px;
+    margin: 20px auto 30px;
+    font-family: Georgia, serif;
+    font-size: 45px;
+    font-weight: normal;
+}
+
+.project__section p {
+    max-width: 700px;
+    margin: 15px auto;
+}
+
+.project__twocolumn {
+    display: flex;
+    gap: 100px;
+    padding: 100px 10%;
+    border-top: 1px solid #aaa59d;
+}
+
+.project__twocolumn div {
+    width: 50%;
+}
+
+.project__twocolumn h2 {
+    font-family: Georgia, serif;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.project__twocolumn p {
+    max-width: 500px;
+}
+
+.project__beige {
+    background-color: #ddd5ca;
+}
+
+.project__next {
+    padding: 90px 8%;
+    text-align: center;
+    border-top: 1px solid #aaa59d;
+}
+
+.project__next p {
+    font-size: 9px;
+    letter-spacing: 3px;
+}
+
+.project__next a {
+    font-family: Georgia, serif;
+    font-size: 45px;
+}
+
+.project__next a:hover {
+    color: #8b7568;
+}
+
+@media screen and (max-width: 700px) {
+
+    .project__intro {
+        padding: 60px 25px;
+    }
+
+    .project__mainTitle {
+        font-size: 50px;
+    }
+
+    .project__introText {
+        font-size: 18px;
+    }
+
+    .project__hero {
+        width: 100%;
+    }
+
+    .project__hero img {
+        height: 400px;
+    }
+
+    .project__information {
+        flex-direction: column;
+        gap: 40px;
+        padding: 60px 25px;
+    }
+
+    .project__details {
+        width: 100%;
+        gap: 30px;
+    }
+
+    .project__overview {
+        width: 100%;
+    }
+
+    .project__overview h2 {
+        font-size: 35px;
+    }
+
+    .project__section {
+        padding: 70px 25px;
+    }
+
+    .project__section h2 {
+        font-size: 35px;
+    }
+
+    .project__twocolumn {
+        flex-direction: column;
+        gap: 20px;
+        padding: 70px 25px;
+    }
+
+    .project__twocolumn div {
+        width: 100%;
+    }
+
+    .project__twocolumn h2 {
+        font-size: 35px;
+    }
+
+    .project__next {
+        padding: 70px 25px;
+    }
+
+    .project__next a {
+        font-size: 35px;
+    }
+}
