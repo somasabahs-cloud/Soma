@@ -1,0 +1,230 @@
+.home {
+    display: flex;
+    gap: 50px;
+    min-height: 650px;
+    padding: 60px 7%;
+    border-bottom: 1px solid #aaa59d;
+}
+
+.home__text {
+    width: 45%;
+    padding-top: 60px;
+}
+
+.home__smalltitle {
+    font-size: 10px;
+    letter-spacing: 3px;
+}
+
+.home__title {
+    margin: 20px 0 30px;
+    font-family: Georgia, serif;
+    font-size: 65px;
+    font-weight: normal;
+    line-height: 1;
+}
+
+.home__description {
+    max-width: 430px;
+    font-size: 15px;
+}
+
+.home__link {
+    display: inline-block;
+    margin-top: 25px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #1d1d1d;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.home__link:hover {
+    color: #8b7568;
+    border-bottom: 1px solid #8b7568;
+}
+
+.home__images {
+    display: flex;
+    width: 55%;
+    gap: 15px;
+}
+
+.home__bigimage {
+    width: 70%;
+    object-fit: cover;
+}
+
+.home__smallimage {
+    width: 30%;
+    height: 300px;
+    margin-top: 80px;
+    object-fit: cover;
+}
+
+.selected {
+    padding: 70px 5% 100px;
+}
+
+.selected__smalltitle {
+    font-size: 10px;
+    letter-spacing: 3px;
+}
+
+.selected__title {
+    margin-bottom: 40px;
+    font-family: Georgia, serif;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.selected__projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+.project img {
+    height: 350px;
+    object-fit: cover;
+}
+
+.project__number {
+    margin-bottom: 5px;
+    font-size: 10px;
+}
+
+.project__title {
+    margin: 0;
+    font-family: Georgia, serif;
+    font-size: 23px;
+    font-weight: normal;
+}
+
+.project__text {
+    margin-top: 8px;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.home__contact {
+    padding: 60px 25px;
+    text-align: center;
+    color: white;
+    background-image:
+        linear-gradient(rgba(29, 29, 29, 0.55), rgba(29, 29, 29, 0.55)),
+        url("../images/hero-small.png");
+    background-size: cover;
+    background-position: center;
+    border-top: 1px solid #aaa59d;
+    border-bottom: 1px solid #aaa59d;
+}
+
+.home__contactsmall {
+    font-size: 9px;
+    letter-spacing: 3px;
+}
+
+.home__contact h2 {
+    margin: 15px 0;
+    font-family: Georgia, serif;
+    font-size: 38px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.home__contact a {
+    color: white;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.home__about {
+    display: flex;
+    gap: 70px;
+    padding: 70px 7%;
+}
+
+.home__aboutimage {
+    width: 50%;
+}
+
+.home__aboutimage img {
+    height: 450px;
+    object-fit: cover;
+}
+
+.home__abouttext {
+    width: 50%;
+    padding-top: 50px;
+}
+
+.home__abouttext h2 {
+    font-family: Georgia, serif;
+    font-size: 45px;
+    font-weight: normal;
+}
+
+.home__abouttext p {
+    max-width: 450px;
+}
+
+@media screen and (max-width: 700px) {
+
+    .home {
+        flex-direction: column;
+        min-height: auto;
+        padding: 40px 25px;
+    }
+
+    .home__text {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .home__title {
+        font-size: 45px;
+    }
+
+    .home__images {
+        width: 100%;
+    }
+
+    .home__bigimage {
+        height: 400px;
+    }
+
+    .home__smallimage {
+        height: 200px;
+    }
+
+    .selected {
+        padding: 60px 25px;
+    }
+
+    .selected__projects {
+        grid-template-columns: 1fr;
+    }
+
+    .project img {
+        height: 400px;
+    }
+
+    .home__about {
+        flex-direction: column;
+        gap: 30px;
+        padding: 50px 25px;
+    }
+
+    .home__aboutimage,
+    .home__abouttext {
+        width: 100%;
+    }
+
+    .home__aboutimage img {
+        height: 450px;
+    }
+
+    .home__abouttext {
+        padding-top: 0;
+    }
+}
